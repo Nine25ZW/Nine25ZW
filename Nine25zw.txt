@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nine25.zw</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004d00;
+            color: gold;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #006600;
+            color: gold;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: gold;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .services, .contact {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        footer {
+            background-color: #004d00;
+            color: gold;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nine25.zw</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Nine25.zw is a versatile business based in Zimbabwe, specializing in a variety of creative and professional services. We offer heatpress printing on all materials, graphic designs, glass etching, and wood torching designs. Additionally, we provide wedding dresses and accessories, as well as tents, chairs, tables, and event decor for any occasion.</p>
+        <p>Our dedicated departments also offer therapeutic services for children and create printable materials for social-emotional regulation and occupational therapy. At Nine25.zw, we are committed to delivering high-quality services that meet the diverse needs of our clients.</p>
+    </section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Heatpress printing on all materials</li>
+            <li>Graphic designs</li>
+            <li>Glass etching</li>
+            <li>Wood torching designs</li>
+            <li>Wedding dresses and accessories</li>
+            <li>Tents, chairs, tables, and event decor</li>
+            <li>Therapies for children</li>
+            <li>Printable materials for social-emotional regulation and occupational therapy</li>
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Reach out to us for any inquiries or to schedule a service.</p>
+        <p>Email: info@nine25.zw</p>
+        <p>Phone: +263 123 456 789</p>
+        <p>Address: 123 Main Street, Harare, Zimbabwe</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nine25.zw. All rights reserved.</p>
+    </footer>
+</body>
+</html>
